@@ -11,6 +11,6 @@ const nextConfig = {
 
 module.exports = {
   output: 'export',
-  basePath: isGithubPages ? '/your-repo-name' : '',
-  assetPrefix: isGithubPages ? '/your-repo-name/' : '',
+  basePath: isGithubPages ? '/my-portfolio' : '',
+  assetPrefix: isGithubPages ? '/my-portfolio/' : '',
 };
