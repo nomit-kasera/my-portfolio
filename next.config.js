@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const isGithubPages = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
   reactStrictMode: true,
@@ -11,6 +10,6 @@ const nextConfig = {
 
 module.exports = {
   output: 'export',
-  basePath: isGithubPages ? '/my-portfolio' : '',
-  assetPrefix: isGithubPages ? '/my-portfolio/' : '',
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio/',
 };
