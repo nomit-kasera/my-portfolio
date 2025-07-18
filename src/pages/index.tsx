@@ -164,7 +164,7 @@ export default function Portfolio() {
   // Download resume function
   const downloadResume = () => {
     // You can replace this with your actual resume URL
-    const resumeUrl = "/NomitKasera_3YOE_Frontend.pdf" // Add your resume to public folder
+    const resumeUrl = "./NomitKasera_3YOE_Frontend.pdf" // Add your resume to public folder
     const link = document.createElement("a")
     link.href = resumeUrl
     link.download = "Nomit_Kasera_Resume.pdf"
@@ -906,7 +906,7 @@ export default function Portfolio() {
                   <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white/40 shadow-[0_0_40px_rgba(255,255,255,0.4)] hover:shadow-[0_0_60px_rgba(255,255,255,0.6)] hover:border-white/60 transition-all duration-500">
                     {/* Professional Photo */}
                     <img
-                      src="/nomit-kasera.png"
+                      src="./nomit-kasera.png"
                       alt="Nomit Kasera - Frontend Developer"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
 
