@@ -5,11 +5,9 @@ const nextConfig = {
   images: {
     domains: ['your-image-domain.com'],
   },
-  // other settings...
-}
-
-module.exports = {
   output: 'export',
   basePath: '/my-portfolio',
   assetPrefix: '/my-portfolio/',
 };
+
+module.exports = nextConfig;
