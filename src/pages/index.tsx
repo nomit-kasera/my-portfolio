@@ -976,7 +976,7 @@ export default function Portfolio() {
 
           <div className="mb-8">
             <div className="text-4xl md:text-7xl font-bold leading-tight min-h-[200px] md:min-h-[300px] flex items-center justify-center">
-              <div className="relative">
+              <div className="relative mt-10">
                 {displayedText}
                 <span
                   className={`inline-block w-1 h-12 md:h-20 bg-white ml-2 ${showCursor ? "opacity-100" : "opacity-0"
@@ -1079,7 +1079,7 @@ export default function Portfolio() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 10 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
@@ -1096,7 +1096,7 @@ export default function Portfolio() {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, x: 10 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
@@ -1328,7 +1328,7 @@ export default function Portfolio() {
             {timeline.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                initial={{ opacity: 0, x: index % 2 === 0 ? -15 : 15 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
                 viewport={{ once: true }}
