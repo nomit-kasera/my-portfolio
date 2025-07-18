@@ -806,11 +806,11 @@ export default function Portfolio() {
           {[...Array(8)].map((_, i) => (
             <motion.div
               key={i}
-              className="absolute w-32 h-32 border border-white/20 rounded-lg backdrop-blur-sm"
+              className="absolute w-32 h-32 text-white border border-white/20 rounded-lg backdrop-blur-sm"
               animate={{
                 rotate: [0, 360],
                 scale: [1, 1.2, 1],
-                opacity: [0.3, 0.6, 0.3],
+                opacity: [1, 1, 1],
               }}
               transition={{
                 duration: 10 + i * 2,
@@ -906,7 +906,7 @@ export default function Portfolio() {
                   <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white/40 shadow-[0_0_40px_rgba(255,255,255,0.4)] hover:shadow-[0_0_60px_rgba(255,255,255,0.6)] hover:border-white/60 transition-all duration-500">
                     {/* Professional Photo */}
                     <img
-                      src="./nomit-kasera.png"
+                      src="./img2.jpeg"
                       alt="Nomit Kasera - Frontend Developer"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
 
@@ -1412,7 +1412,7 @@ export default function Portfolio() {
             </motion.div>
 
             <motion.div
-              initial={{ opacity: 0, x: 50 }}
+              initial={{ opacity: 0, x: 0 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
