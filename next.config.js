@@ -8,6 +8,8 @@ const nextConfig = {
   output: 'export',
   basePath: '/my-portfolio',
   assetPrefix: '/my-portfolio/',
+  reactStrictMode: true,
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
