@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "npm run build && npm run export && gh-pages -d out",
-    "homePgae": "https://nomit-kasera.github.io/my-portfolio"
+    "homePgae": "https://nomit-kasera.github.io/my-portfolio",
+    "export": "next export"
   },
   "dependencies": {
     "@iconify/react": "^6.0.0",
