@@ -6,7 +6,8 @@ export default function Document() {
       <Head >
         <meta name="description" content="Nomit Kasera - Frontend Developer" />
         <meta name="title" content="Nomit Kasera | Frontend Developer" />
-
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://nomit.me/" />
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nomit.me/" />

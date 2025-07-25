@@ -429,6 +429,7 @@ export default function Portfolio() {
       icon: <Icon icon="logos:aws" width="40" height="40" />,
       color: "from-yellow-500 to-orange-500",
     },
+    { name: "Jira", level: 80, icon: <Icon icon="logos:jira" width="40" height="40" />, color: "from-blue-600 to-indigo-600" },
     // {
     //   name: "Web3",
     //   level: 65,
